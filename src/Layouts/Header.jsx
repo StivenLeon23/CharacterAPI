@@ -10,7 +10,7 @@ function Header(props) {
        <Navbar className="bg-body-tertiary" data-bs-theme="dark">
           <Container>
               <Navbar.Brand href="#home">Esta es la pagina de: {props.name}</Navbar.Brand>
-              <Link to="/home">Home</Link>
+              <Link to="/">Home</Link>
               <Link to="/frutas">Frutas</Link>
               <Link to="/verduras">Verduras</Link>
           </Container>
